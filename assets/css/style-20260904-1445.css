@@ -1,0 +1,238 @@
+:root{--green:#244b25;--deep:#153217;--leaf:#5f7e38;--gold:#c6a04b;--cream:#fbf8ef;--warm:#f3eddf;--ink:#20251e;--white:#fff;--serif:"Yu Mincho","Hiragino Mincho ProN",serif;--sans:"Yu Gothic","Hiragino Kaku Gothic ProN",sans-serif}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;color:var(--ink);background:var(--cream);font-family:var(--sans);line-height:1.75}img{max-width:100%;display:block}a{color:inherit;text-decoration:none}button,input,select,textarea{font:inherit}.site-header{height:78px;padding:0 4vw;display:flex;align-items:center;gap:3rem;background:rgba(255,255,255,.96);position:sticky;top:0;z-index:20;border-bottom:1px solid #ded8c8}.brand{display:flex;align-items:center;gap:.7rem;line-height:1.2;margin-right:auto}.brand-mark{display:grid;place-items:center;border:2px solid var(--leaf);width:42px;height:42px;color:#b93c2d;font-size:1.5rem}.brand b{display:block;letter-spacing:.08em}.brand small{font-size:.72rem}.site-header nav{display:flex;gap:2rem;font-weight:700;font-size:.9rem}.header-tel{background:var(--green);color:white;padding:.55rem 1rem;text-align:center;line-height:1.25;font-size:.73rem}.header-tel b{font-size:1rem;letter-spacing:.04em}.hero{min-height:calc(100vh - 78px);position:relative;color:#fff;display:flex;align-items:center;overflow:hidden}.hero>img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}.hero-shade{position:absolute;inset:0;background:linear-gradient(90deg,rgba(11,32,13,.9) 0%,rgba(18,48,20,.68) 43%,rgba(10,20,10,.1) 80%)}.hero-content{position:relative;width:min(760px,90%);margin-left:max(5vw,calc((100vw - 1240px)/2));padding:4rem 0}.eyebrow{letter-spacing:.2em;font-weight:800;font-size:.8rem;color:#f1d78d}.eyebrow.dark{color:var(--leaf)}h1,h2,h3{font-family:var(--serif);font-weight:600;margin:.25em 0;line-height:1.35}h1{font-size:clamp(2.7rem,6vw,5.7rem);letter-spacing:.04em}h1 em{color:#f4d47b;font-style:normal}.lead{font-size:clamp(1rem,2vw,1.3rem);max-width:620px}.hero-price{display:flex;gap:1.1rem;align-items:center;margin:1.6rem 0}.hero-price span{font-weight:700;border-block:1px solid rgba(255,255,255,.5);padding:.3rem}.hero-price strong{font-family:var(--serif);font-size:3rem;color:#f6d97f;line-height:1}.hero-price small{font-size:.9rem}.hero-actions{display:flex;gap:.8rem}.button{display:inline-flex;justify-content:center;align-items:center;padding:1rem 1.5rem;font-weight:800;border:1px solid transparent}.button.gold{background:var(--gold);color:#1c2817}.button.glass{border-color:white;background:rgba(255,255,255,.1)}.button.outline{border-color:var(--green);color:var(--green)}.micro{font-size:.8rem}.scroll{position:absolute;right:4vw;bottom:2rem;font-size:.75rem;letter-spacing:.12em}.scroll span{font-size:1.5rem}.section{padding:100px max(5vw,calc((100vw - 1200px)/2))}.section-head{text-align:center;max-width:760px;margin:0 auto 3rem}.section-head h2,.form-intro h2,.access h2{font-size:clamp(2rem,4vw,3.2rem)}.warm{background:var(--warm)}.plan-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem;align-items:center}.plan{background:#fff;border:1px solid #d9cfb8;text-align:center;padding:2rem;position:relative}.plan.featured{border:3px solid var(--gold);padding-block:2.8rem;box-shadow:0 15px 40px #493b1d1a}.plan h3{font-size:3.4rem;color:var(--green)}.plan h3 small{font-size:1rem}.plan span{font-size:.8rem}.plan button{display:block;width:100%;margin-top:1.5rem;padding:.8rem;background:var(--green);color:white;border:0;cursor:pointer}.ribbon{position:absolute;top:-14px;left:50%;transform:translateX(-50%);background:var(--gold);padding:.25rem 1.3rem;white-space:nowrap}.dates{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin:2rem auto 1rem;max-width:900px}.dates div{padding:1.5rem;text-align:center;border:1px solid #c9b98f}.dates small,.dates strong{display:block}.dates strong{font-family:var(--serif);font-size:1.3rem}.notes{font-size:.78rem;text-align:center}.style-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:1rem}.style-grid article{background:#fff;padding:2rem 1.5rem;border-top:4px solid var(--leaf)}.style-grid span{color:var(--gold);font-weight:800}.style-grid h3{font-size:1.6rem}.photo-row{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin-top:2rem}.photo-row img{width:100%;height:340px;object-fit:cover}.scene-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:.8rem}.scene-grid button{padding:1.3rem;background:white;border:1px solid #b9ae92;color:var(--deep);font-family:var(--serif);font-size:1.05rem;cursor:pointer}.benefit-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:1rem}.benefit-grid article{padding:2rem;border-left:1px solid var(--gold)}.benefit-grid b{font-family:var(--serif);font-size:1.2rem;color:var(--green)}.important{max-width:950px;margin:3rem auto 0;padding:1.5rem 2rem;background:#fff7df;border:1px solid #d7bd72}.important p{margin:.2rem 0}.flow ol{display:grid;grid-template-columns:repeat(4,1fr);list-style:none;padding:0;gap:2rem}.flow li{display:flex;gap:1rem}.flow li>span{display:grid;place-items:center;min-width:42px;height:42px;border-radius:50%;background:var(--green);color:white;font-weight:800}.flow b{font-family:var(--serif);font-size:1.15rem}.flow p{font-size:.85rem}.form-section{background:var(--deep);color:white;display:grid;grid-template-columns:.75fr 1.25fr;gap:6vw}.form-intro{position:sticky;top:120px;align-self:start}.tel-card{display:block;margin-top:2rem;padding:1.2rem;border:1px solid var(--gold);color:#f4d47b}.tel-card small,.tel-card span{display:block}.tel-card strong{display:block;font-size:2rem;letter-spacing:.05em}.hours{font-size:.8rem}.form-section form{background:white;color:var(--ink);padding:clamp(1.5rem,4vw,3rem);display:grid;gap:1.1rem}.form-section label{display:grid;gap:.35rem;font-weight:700;font-size:.9rem}.fields{display:grid;grid-template-columns:1fr 1fr;gap:1rem}input,select,textarea{width:100%;border:1px solid #aaa18c;background:#fffcf5;padding:.85rem;border-radius:0}textarea{resize:vertical}.consent{grid-template-columns:auto 1fr!important;align-items:start}.consent input{width:auto;margin-top:.45rem}.submit{padding:1.1rem;border:0;background:var(--gold);color:#182719;font-weight:900;font-size:1.05rem;cursor:pointer}.form-note{font-size:.75rem;text-align:center}.hidden{display:none}.access{display:grid;grid-template-columns:1.1fr .9fr;align-items:center;gap:5vw}.access img{height:430px;width:100%;object-fit:cover}.flyers details{max-width:900px;margin:.8rem auto;background:white;border:1px solid #d8cfbd;padding:1rem}.flyers summary{cursor:pointer;font-weight:800}.flyers details img{margin:1rem auto 0;max-height:85vh}.flyers details:not([open]) img{display:none}footer{text-align:center;padding:4rem 1rem;background:#0d2410;color:white}footer b{letter-spacing:.15em}footer small{opacity:.6}.mobile-cta{display:none}
+@media(max-width:850px){body{padding-bottom:64px}.site-header{height:62px;padding:0 1rem}.brand-mark{width:34px;height:34px}.brand b{font-size:.78rem}.site-header nav,.header-tel{display:none}.hero{min-height:720px}.hero-shade{background:linear-gradient(180deg,rgba(13,39,15,.18),rgba(13,39,15,.92) 68%)}.hero-content{align-self:end;margin:0;padding:3rem 1.2rem 5rem;width:100%}h1{font-size:2.8rem}.hero-price{display:grid;gap:.2rem}.hero-price span{border:0;padding:0}.hero-price strong{font-size:2.5rem}.hero-actions{display:grid}.scroll{display:none}.section{padding:70px 1.2rem}.plan-grid,.style-grid,.benefit-grid,.flow ol{grid-template-columns:1fr}.plan.featured{order:-1}.dates,.photo-row,.fields,.access,.form-section{grid-template-columns:1fr}.style-grid{grid-template-columns:1fr 1fr}.photo-row img{height:230px}.scene-grid{grid-template-columns:1fr 1fr}.benefit-grid article{padding:1.3rem}.flow ol{gap:.6rem}.form-intro{position:static}.access img{height:280px}.mobile-cta{position:fixed;display:grid;grid-template-columns:1fr 1fr;bottom:0;left:0;right:0;height:64px;z-index:30;box-shadow:0 -5px 20px #0003}.mobile-cta a{display:grid;place-items:center;background:white;color:var(--green);font-weight:900}.mobile-cta a:last-child{background:var(--gold);color:#183018}}
+@media(max-width:430px){.style-grid{grid-template-columns:1fr}.scene-grid{gap:.5rem}.scene-grid button{padding:1rem .4rem;font-size:.9rem}.hero-actions .button{padding:.85rem}.form-section form{padding:1.2rem}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+.style-grid article.style-photo{padding:0;overflow:hidden}.style-photo img{width:100%;height:190px;object-fit:cover}.style-photo div{padding:1.25rem 1.5rem}
+.photo-row figure{margin:0;background:#fff}.photo-row figcaption{padding:.75rem 1rem;font-family:var(--serif);color:var(--green);font-weight:700}.hero>img{object-position:center center}
+.hero>img{filter:brightness(1.28) saturate(1.13) contrast(.94)}.hero-shade{background:radial-gradient(circle at 78% 20%,rgba(255,224,145,.42),transparent 32%),radial-gradient(circle at 58% 52%,rgba(255,196,84,.22),transparent 38%),linear-gradient(90deg,rgba(15,50,19,.7) 0%,rgba(35,66,25,.38) 44%,rgba(108,69,17,.03) 82%)}.hero-content{text-shadow:0 2px 12px rgba(0,0,0,.62)}
+@media(max-width:850px){.hero-shade{background:radial-gradient(circle at 68% 20%,rgba(255,218,129,.36),transparent 34%),linear-gradient(180deg,rgba(18,44,18,.04) 0%,rgba(16,45,18,.22) 42%,rgba(13,39,15,.88) 76%)}}
+
+/* 明るく、料理と集まりへの期待が先に伝わる宴会トップ */
+.hero{background:#fffaf0;color:var(--ink)}.hero>img{left:auto;width:61%;filter:brightness(1.18) saturate(1.16) contrast(.96);object-position:center}.hero-shade{background:linear-gradient(90deg,#fffaf0 0%,#fffaf0 38%,rgba(255,250,240,.96) 45%,rgba(255,250,240,.38) 61%,rgba(255,250,240,0) 78%)}.hero-content{text-shadow:none;max-width:650px}.hero .eyebrow{display:inline-block;background:#eef4df;color:var(--green);border:1px solid #bdd18e;border-radius:99px;padding:.4rem 1rem}.hero h1{color:#243620}.hero h1 em{color:#b27a22}.hero .lead{color:#465142;font-weight:600}.hero-price{background:rgba(255,255,255,.92);border:1px solid #e5d2a4;box-shadow:0 12px 35px rgba(117,81,25,.12);padding:1rem 1.25rem;width:max-content;max-width:100%}.hero-price span{color:#4d5847;border-color:#c9ad6e}.hero-price strong{color:#b47718}.button.gold,.submit{background:linear-gradient(135deg,#f0c45c,#dca32d);box-shadow:0 8px 22px rgba(177,119,21,.22)}.hero .button.glass{background:#fff;color:var(--green);border-color:var(--green)}.hero .micro{color:#52604d;font-weight:700}.hero .scroll{color:var(--green)}.form-section{background:linear-gradient(135deg,#fff9ed,#f7ecd2);color:var(--ink);border-block:1px solid #e9d7ae}.form-intro .eyebrow{color:var(--leaf)}.tel-card{background:#fff;color:var(--green);border:2px solid var(--gold);box-shadow:0 12px 30px rgba(105,75,25,.1)}
+@media(max-width:850px){.hero{min-height:800px;display:block;padding-top:300px}.hero>img{inset:0 0 auto 0;width:100%;height:360px;filter:brightness(1.22) saturate(1.12)}.hero-shade{background:linear-gradient(180deg,rgba(255,250,240,0) 0%,rgba(255,250,240,.08) 32%,#fffaf0 45%,#fffaf0 100%)}.hero-content{position:relative;padding:3.2rem 1.2rem 4rem}.hero h1{font-size:2.55rem}.hero-price{width:100%}.hero .button.glass{background:#fff}.hero .scroll{display:none}}
+.brand img{width:min(390px,34vw);height:56px;object-fit:contain;object-position:left center}.hero>img{filter:brightness(1.08) saturate(1.1);object-position:62% center}
+@media(max-width:850px){.brand img{width:245px;height:44px}.hero>img{filter:brightness(1.08) saturate(1.1);object-position:68% center}}
+@media(max-width:430px){.brand img{width:210px;height:40px}}
+.brand img{width:250px;height:46px}.campaign-label{display:inline-block;margin:0 0 .6rem;color:var(--green);font-weight:900;letter-spacing:.14em}.hero h1 .restaurant-banquet-title{display:block;font-family:var(--serif);font-size:clamp(3.6rem,6.5vw,6.6rem);line-height:1;letter-spacing:.06em;color:var(--green);white-space:nowrap;margin-bottom:.22em}.hero h1>span{display:block;font-size:.62em;line-height:1.35}@media(max-width:850px){.brand img{width:180px;height:38px}.hero h1 .restaurant-banquet-title{font-size:clamp(2.8rem,13vw,4.3rem);white-space:normal}.hero h1>span{font-size:.72em}}@media(max-width:430px){.brand img{width:165px;height:34px}}
+.hero-labels{display:flex;align-items:center;gap:.7rem;margin-bottom:1rem}.hero-labels strong{display:inline-block;background:var(--green);color:#fff;padding:.5rem 1.15rem;font-family:var(--serif);font-size:1.15rem;letter-spacing:.08em;box-shadow:0 6px 18px rgba(36,75,37,.18)}.hero-labels span{color:var(--green);font-weight:800;letter-spacing:.1em;font-size:.8rem}@media(max-width:430px){.hero-labels{align-items:flex-start;flex-direction:column;gap:.45rem}.hero-labels strong{font-size:1.05rem}}
+.hero-labels{align-items:flex-start;flex-direction:column;gap:.65rem}.hero-labels strong{font-size:clamp(2rem,3.2vw,3rem);padding:.45rem 1.4rem;line-height:1.25;letter-spacing:.12em}.hero-labels span{font-size:1rem;padding-left:.15rem}@media(max-width:430px){.hero-labels strong{font-size:1.7rem;padding:.42rem 1rem}.hero-labels span{font-size:.78rem}}
+.brand img{width:128px;height:34px}.hero h1 .restaurant-banquet-title{display:inline-block;font-size:clamp(1.8rem,2.4vw,2.5rem);line-height:1.2;letter-spacing:.1em;background:var(--green);color:#fff;padding:.35rem .8rem;margin:0 0 .6rem;white-space:nowrap}.hero h1>span{font-size:1em;line-height:1.32}@media(max-width:850px){.brand img{width:112px;height:30px}.hero h1 .restaurant-banquet-title{font-size:1.65rem;padding:.3rem .65rem}.hero h1>span{font-size:1em}}@media(max-width:430px){.brand img{width:100px;height:28px}}
+.brand img{width:190px;height:42px}@media(max-width:850px){.brand img{width:160px;height:38px}}@media(max-width:430px){.brand img{width:148px;height:34px}}
+@media(max-width:850px){.hero{padding-top:380px}.hero-content{padding-top:2.2rem}.campaign-label{display:block;position:relative;z-index:3;margin-top:0;background:#fffaf0;padding:.35rem 0}}
+
+/* プラン詳細・条件スタイリング */
+.plan-category{display:inline-block;font-size:.75rem;font-weight:800;color:var(--leaf);letter-spacing:.08em;margin-bottom:.2rem}
+.plan-subtitle{margin:0 0 .2rem;font-weight:700;color:var(--deep);font-size:1.05rem}
+.plan-tax{display:block;font-size:.8rem;color:#707c6c;margin-bottom:.8rem}
+.plan-features{background:#faf7ee;border:1px dashed #d8cca9;border-radius:8px;padding:.9rem .85rem;margin:1rem 0 1.2rem;text-align:left}
+.plan-menu-title{font-size:.92rem;color:var(--green);text-align:center;margin:0 0 .6rem;padding-bottom:.45rem;border-bottom:1px solid #e7ddc4}
+.plan-conditions{list-style:none;padding:0;margin:0;display:grid;gap:.5rem;font-size:.8rem;color:#394236;line-height:1.4}
+.plan-conditions li{display:flex;align-items:center;flex-wrap:wrap;gap:.3rem}
+.condition-badge{display:inline-block;background:var(--green);color:#fff;font-size:.68rem;font-weight:800;padding:.15rem .45rem;border-radius:3px;white-space:nowrap}
+.condition-badge.condition-takumori{background:#8a6035}
+.plan-desc{margin:0;font-size:.82rem;line-height:1.55;color:#495646}
+.plan.featured .plan-features{background:#fffcf2;border-color:var(--gold)}
+
+/* 飲み放題メニュー */
+.drink-menu-box{margin:3rem auto 0;max-width:920px;background:#fff;border:2px solid #e0d4b8;border-radius:12px;padding:clamp(1.5rem,3.5vw,2.5rem);box-shadow:0 12px 36px rgba(45,35,15,.06);text-align:left}
+.drink-menu-head{text-align:center;margin-bottom:1.8rem}
+.drink-pill{display:inline-block;background:#eef4df;color:var(--green);border:1px solid #bdd18e;border-radius:99px;padding:.25rem .95rem;font-size:.72rem;font-weight:900;letter-spacing:.14em}
+.drink-menu-head h3{font-size:clamp(1.35rem,2.4vw,1.75rem);color:var(--green);margin:.6rem 0 .35rem;font-family:var(--serif)}
+.drink-menu-head p{margin:0;font-size:.88rem;color:#556150}
+.drink-columns{display:grid;grid-template-columns:1.2fr .8fr;gap:1.5rem}
+.drink-card{background:#fdfbf6;border:1px solid #e6dcbf;border-radius:8px;padding:1.2rem 1.4rem}
+.drink-card-title{margin-bottom:.9rem;padding-bottom:.55rem;border-bottom:2px solid #e3d7b8}
+.drink-badge-alcohol{display:inline-block;background:var(--green);color:#fff;font-weight:900;font-size:.85rem;padding:.3rem .9rem;border-radius:4px;letter-spacing:.08em}
+.drink-badge-soft{display:inline-block;background:#32717f;color:#fff;font-weight:900;font-size:.85rem;padding:.3rem .9rem;border-radius:4px;letter-spacing:.08em}
+.drink-items{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(125px,1fr));gap:.55rem .7rem;font-size:.9rem;font-weight:700;color:#273024}
+.drink-items li{display:flex;align-items:center}
+.drink-name{display:inline-block}
+.drink-sub{display:inline-block;margin-left:.35rem;font-size:.72rem;color:#6f7b6c;font-weight:500}
+.drink-foot-note{text-align:center;font-size:.78rem;color:#6c7866;margin:1.4rem 0 0;padding-top:.9rem;border-top:1px dashed #dfd4b7}
+
+/* 料理紹介ギャラリー（ブッフェ13品） */
+.buffet-showcase{background:var(--warm);border-top:1px solid #e8dec7}
+.buffet-gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:1.6rem;max-width:1200px;margin:0 auto}
+.gallery-card{margin:0;background:#fff;border:1px solid #ded5bd;border-radius:10px;overflow:hidden;box-shadow:0 8px 24px rgba(40,30,10,.05);display:flex;flex-direction:column;transition:transform .25s ease,box-shadow .25s ease}
+.gallery-card:hover{transform:translateY(-4px);box-shadow:0 14px 32px rgba(40,30,10,.12)}
+.gallery-image-wrap{position:relative;overflow:hidden;aspect-ratio:16 / 10;background:#ede7d8}
+.gallery-image-wrap img{width:100%;height:100%;object-fit:cover;transition:transform .4s ease}
+.gallery-card:hover .gallery-image-wrap img{transform:scale(1.04)}
+.gallery-tag{position:absolute;top:.75rem;left:.75rem;background:rgba(21,50,23,.88);color:#fff;font-size:.72rem;font-weight:800;padding:.3rem .7rem;border-radius:4px;backdrop-filter:blur(4px);box-shadow:0 2px 6px rgba(0,0,0,.25);letter-spacing:.04em}
+.gallery-card figcaption{padding:1.3rem 1.25rem 1.5rem;display:flex;flex-direction:column;gap:.45rem;flex-grow:1;background:#fff}
+.gallery-card figcaption strong{font-family:var(--serif);font-size:1.18rem;color:var(--green);display:block}
+.gallery-card figcaption p{margin:0;font-size:.86rem;color:#495544;line-height:1.65}
+
+/* レスポンシブ */
+@media(max-width:850px){
+  .drink-columns{grid-template-columns:1fr;gap:1rem}
+  .drink-items{grid-template-columns:1fr 1fr}
+  .buffet-gallery{grid-template-columns:1fr;gap:1.4rem}
+  .gallery-image-wrap{aspect-ratio:16 / 10;max-height:280px}
+}
+
+/* === Because Framework & 実物10品・52席 対応スタイル === */
+.header-actions{display:flex;align-items:center;gap:.75rem}
+.header-tel small{display:block;font-size:.65rem;opacity:.9;font-weight:400;margin-top:.15rem}
+.header-cta-btn{font-size:.78rem;padding:.55rem .95rem;text-align:center;line-height:1.2;border-radius:4px}
+.header-cta-btn small{display:block;font-size:.68rem;opacity:.85;font-weight:500}
+
+/* ファーストビュー Because 強化 */
+.hero-social-proof{display:inline-flex;align-items:center;gap:.5rem;background:linear-gradient(135deg,#e9f2db,#dbe9c5);color:var(--deep);border:1px solid #b3c990;border-radius:99px;padding:.35rem 1rem;font-size:.82rem;font-weight:800;letter-spacing:.06em;margin-bottom:1rem;box-shadow:0 2px 8px rgba(36,75,37,.1)}
+.hero-social-proof::before{content:"★";color:#c6871a;font-size:.9rem}
+.hero-main-title{font-size:clamp(2.1rem,4.2vw,3.6rem);line-height:1.28;letter-spacing:.04em;margin:.4rem 0 .9rem;font-family:var(--serif);color:var(--deep)}
+.hero-main-title em{font-style:normal;color:#b47718;display:inline-block}
+.hero-sub-because{font-size:clamp(1rem,1.7vw,1.25rem);font-weight:700;color:#2c3a27;margin-bottom:.8rem;line-height:1.6}
+.hero-social-belonging{background:rgba(255,255,255,.85);border-left:4px solid var(--gold);padding:.75rem 1.1rem;margin:1rem 0 1.4rem;font-size:.9rem;color:#394833;line-height:1.6;border-radius:0 6px 6px 0;box-shadow:0 4px 14px rgba(40,30,10,.05)}
+.hero-social-belonging strong{color:var(--green)}
+.hero-price-wrap{margin:1.4rem 0}
+.hero-price-breakdown{display:inline-block;background:#244b25;color:#fff;font-size:.75rem;font-weight:800;padding:.25rem .75rem;border-radius:4px;margin-bottom:.4rem;letter-spacing:.04em}
+.hero-price-note{font-size:.78rem;color:#556350;margin-top:.4rem;font-weight:600}
+
+/* 比較優位・価格内訳セクション */
+.breakdown-section{margin:0 auto 3rem;max-width:980px}
+.breakdown-box{background:#fff;border:2px solid #e3d9c3;border-radius:12px;padding:clamp(1.5rem,3vw,2.2rem);box-shadow:0 10px 30px rgba(45,35,15,.06)}
+.breakdown-grid{display:grid;grid-template-columns:1.2fr 1fr;gap:2rem;align-items:center}
+.breakdown-total{background:linear-gradient(135deg,#fcfaf5,#f6ede0);border:1px solid #decfaa;border-radius:8px;padding:1.4rem;text-align:center}
+.breakdown-total .price-badge{display:inline-block;background:var(--green);color:#fff;font-size:.78rem;font-weight:800;padding:.25rem .8rem;border-radius:99px;margin-bottom:.5rem}
+.breakdown-total .main-sum{font-family:var(--serif);font-size:clamp(2rem,3.2vw,2.6rem);color:#b47718;font-weight:700;line-height:1.1}
+.breakdown-total .sum-items{list-style:none;padding:0;margin:1rem 0 0;display:grid;gap:.5rem;font-size:.9rem;color:#2f3b2a;text-align:left}
+.breakdown-total .sum-items li{display:flex;justify-content:space-between;border-bottom:1px dashed #ded4ba;padding-bottom:.35rem}
+.breakdown-total .sum-items b{color:var(--green)}
+.comparison-points{display:grid;gap:1.1rem}
+.comparison-card{border-left:3px solid var(--leaf);padding-left:1rem}
+.comparison-card h4{margin:0 0 .3rem;font-size:1.02rem;color:var(--green)}
+.comparison-card p{margin:0;font-size:.85rem;color:#4c5946;line-height:1.6}
+
+/* プラン共通バー & Bright Line */
+.plans-common-banner{background:linear-gradient(135deg,#244b25,#19381a);color:#fff;border-radius:8px;padding:1rem 1.4rem;max-width:980px;margin:0 auto 2rem;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:.8rem;box-shadow:0 6px 18px rgba(25,56,26,.15)}
+.plans-common-banner b{color:#f5d787;letter-spacing:.06em;font-size:.92rem}
+.plans-common-banner span{font-size:.84rem;opacity:.95}
+.plan-dishes-badge{background:#fdf2da;border:1px solid #ebd09c;color:#7e520d;font-size:.74rem;font-weight:700;padding:.4rem .6rem;border-radius:5px;margin-bottom:.7rem;text-align:left;line-height:1.5}
+.plan-dishes-badge strong{display:block;color:#a25f05;margin-bottom:.2rem;font-size:.76rem}
+.plan-voice{background:#fff;border:1px solid #d9d0bc;border-radius:6px;padding:.55rem .75rem;margin-top:.85rem;font-size:.78rem;color:#445240;font-style:italic;text-align:left;line-height:1.45}
+.plan-voice strong{color:var(--green);font-style:normal}
+.brightline-guide{margin:2.5rem auto 0;max-width:980px;background:#fff;border:1px solid #dcd1ba;border-radius:10px;padding:1.4rem 1.8rem}
+.brightline-guide h4{margin:0 0 .8rem;font-size:1.05rem;color:var(--green);display:flex;align-items:center;gap:.5rem}
+.brightline-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem}
+.brightline-col{background:#faf7ef;border:1px solid #e7ddc4;border-radius:6px;padding:1rem;text-align:center}
+.brightline-col b{display:block;font-size:1.15rem;color:var(--green);margin-bottom:.25rem}
+.brightline-col span{display:inline-block;background:var(--gold);color:#192617;font-weight:800;font-size:.75rem;padding:.2rem .6rem;border-radius:3px;margin-bottom:.35rem}
+.brightline-col p{margin:0;font-size:.8rem;color:#4a5845;line-height:1.5}
+
+/* 10品完全メニューカテゴリ一覧 */
+.buffet-14-wrap{max-width:1100px;margin:2.5rem auto 0}
+.buffet-14-head{background:#fff;border:1px solid #d9ceb4;border-radius:10px 10px 0 0;padding:1.4rem 1.8rem;border-bottom:0}
+.buffet-14-head h3{margin:0;color:var(--green);font-size:1.3rem}
+.buffet-season-note{margin:.5rem 0 0;font-size:.8rem;color:#6b7865;line-height:1.6}
+.buffet-categories{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:1px;background:#ded3ba;border:1px solid #d9ceb4;border-radius:0 0 10px 10px;overflow:hidden}
+.buffet-cat-col{background:#fff;padding:1.2rem 1.1rem}
+.buffet-cat-col h4{margin:0 0 .8rem;font-size:.88rem;color:#fff;background:var(--green);padding:.35rem .6rem;border-radius:4px;letter-spacing:.04em}
+.buffet-cat-col.cat-hero h4{background:#9e6a18}
+.buffet-cat-col ol{list-style:none;padding:0;margin:0;display:grid;gap:.45rem;font-size:.84rem;color:#333f2e}
+.buffet-cat-col ol li{display:flex;align-items:baseline;gap:.4rem;line-height:1.45}
+.buffet-cat-col ol li span.num{font-family:var(--serif);font-weight:700;color:#9b7a37;font-size:.78rem;min-width:18px}
+.buffet-cat-col ol li strong{color:#1a2818}
+
+/* 季節のBecauseセクション */
+.seasonal-section{background:linear-gradient(135deg,#fbf8f0,#f4edd8);border-block:1px solid #e5d8b8}
+.seasonal-cards{display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem;max-width:1100px;margin:0 auto}
+.seasonal-card{background:#fff;border:1px solid #dfd4ba;border-radius:10px;padding:1.6rem 1.4rem;box-shadow:0 8px 20px rgba(45,35,15,.05);display:flex;flex-direction:column}
+.season-tag{display:inline-block;align-self:flex-start;padding:.25rem .75rem;font-size:.75rem;font-weight:800;border-radius:99px;margin-bottom:.8rem}
+.season-tag.summer{background:#e2f0d9;color:#2c5b1e;border:1px solid #a8cf92}
+.season-tag.autumn{background:#faeedb;color:#995514;border:1px solid #e7be84}
+.season-tag.winter{background:#e5f0f6;color:#185474;border:1px solid #9fc4da}
+.seasonal-card h3{font-size:1.15rem;margin:0 0 .6rem;color:var(--deep)}
+.seasonal-card p{margin:0;font-size:.85rem;color:#4c5946;line-height:1.65;flex-grow:1}
+.seasonal-footer-note{text-align:center;max-width:800px;margin:2rem auto 0;font-size:.84rem;color:#5c6b56}
+
+/* 9つの仕組み（幹事サポート） */
+.support-section{background:#fff}
+.mechanisms-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.2rem;max-width:1100px;margin:0 auto}
+.mechanism-item{background:#fdfcf8;border:1px solid #e5dcbe;border-radius:8px;padding:1.3rem 1.2rem;position:relative}
+.mechanism-num{display:inline-block;background:var(--green);color:#fff;font-size:.72rem;font-weight:800;padding:.15rem .55rem;border-radius:3px;margin-bottom:.5rem}
+.mechanism-num.venue-type{background:#9e6a18}
+.mechanism-item h4{margin:0 0 .45rem;font-size:1rem;color:var(--deep)}
+.mechanism-item p{margin:0;font-size:.82rem;color:#4c5946;line-height:1.6}
+
+/* 会場の選び直し（But→Because 変換ボックス） */
+.venue-because-box{max-width:980px;margin:3rem auto 0;background:linear-gradient(135deg,#fffdf7,#fbf4e4);border:2px solid #dfcfa9;border-radius:12px;padding:clamp(1.5rem,3vw,2.4rem);box-shadow:0 10px 28px rgba(45,35,15,.06)}
+.venue-because-box h3{color:var(--green);font-size:clamp(1.2rem,2.2vw,1.55rem);margin:0 0 .8rem}
+.venue-because-lead{font-size:.94rem;color:#2f3b2c;line-height:1.75;font-weight:600;margin-bottom:1.4rem}
+.venue-reasons-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.2rem;margin-bottom:1.4rem}
+.venue-reason-card{background:#fff;border:1px solid #ded3b6;border-radius:6px;padding:1rem}
+.venue-reason-card b{display:block;font-size:.9rem;color:var(--green);margin-bottom:.35rem}
+.venue-reason-card p{margin:0;font-size:.8rem;color:#505e4a;line-height:1.55}
+.venue-promise{background:#fff;border-left:4px solid var(--gold);padding:.9rem 1.2rem;border-radius:0 6px 6px 0;font-size:.86rem;color:#3b4736;line-height:1.65}
+.venue-promise strong{color:#b47718}
+
+/* 飲み放題セクション内のBecauseバッジ */
+.drink-pain-relief{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem;margin-top:1.4rem;padding-top:1.2rem;border-top:1px dashed #dfd4b7}
+.drink-pain-item{background:#fdfcf9;border:1px solid #e7ddc2;border-radius:6px;padding:.8rem .9rem;font-size:.8rem;color:#424e3c;line-height:1.5}
+.drink-pain-item b{display:block;color:var(--green);margin-bottom:.2rem;font-size:.82rem}
+
+/* 追加レスポンシブ対応 */
+@media(max-width:850px){
+  .header-actions{display:none}
+  .breakdown-grid{grid-template-columns:1fr;gap:1.5rem}
+  .brightline-grid{grid-template-columns:1fr}
+  .buffet-categories{grid-template-columns:1fr}
+  .seasonal-cards{grid-template-columns:1fr}
+  .mechanisms-grid{grid-template-columns:1fr}
+  .venue-reasons-grid{grid-template-columns:1fr}
+  .drink-pain-relief{grid-template-columns:1fr}
+  .hero-main-title{font-size:1.95rem}
+}
+
+/* === 幹事目線リニューアル用スタイル === */
+/* FVの5大特徴カード */
+.hero-features-chips{display:flex;flex-wrap:wrap;gap:.6rem;margin:1.3rem 0 1.6rem}
+.hero-chip{background:rgba(255,255,255,.94);border:1px solid #ded2b8;padding:.5rem .85rem;border-radius:6px;font-size:.85rem;font-weight:800;color:var(--deep);box-shadow:0 3px 10px rgba(0,0,0,.04);display:inline-flex;align-items:center;gap:.35rem}
+.hero-chip b{color:var(--green);font-size:.92rem}
+
+/* 幹事がラクな4つの理由 */
+.easy-section{background:#fff;border-bottom:1px solid #e7dec8}
+.easy-cards-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:1.2rem;max-width:1160px;margin:0 auto}
+.easy-card{background:#fdfcf8;border:1px solid #e5dcc2;border-radius:10px;padding:1.6rem 1.3rem;box-shadow:0 6px 18px rgba(45,35,15,.04);display:flex;flex-direction:column;transition:transform .2s ease}
+.easy-card:hover{transform:translateY(-3px)}
+.easy-card-num{display:inline-block;background:var(--green);color:#fff;font-size:.75rem;font-weight:900;padding:.2rem .6rem;border-radius:4px;align-self:flex-start;margin-bottom:.8rem}
+.easy-card h3{font-size:1.15rem;margin:0 0 .6rem;color:var(--deep);font-family:var(--serif)}
+.easy-card p{margin:0;font-size:.86rem;color:#495646;line-height:1.65}
+
+/* ここなら失敗しにくい理由（不安解決8項目） */
+.failproof-section{background:linear-gradient(135deg,#fcfaf4,#f6efe1);border-bottom:1px solid #e5d8bb}
+.trouble-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:1.1rem;max-width:1100px;margin:0 auto}
+.trouble-card{background:#fff;border:1px solid #dfd3b8;border-radius:8px;padding:1.2rem 1.4rem;display:grid;grid-template-columns:auto 1fr;gap:1.1rem;align-items:center;box-shadow:0 4px 12px rgba(40,30,10,.04)}
+.trouble-before{background:#fbf0ee;border:1px solid #f2c7c2;border-radius:6px;padding:.55rem .8rem;min-width:170px}
+.trouble-before-tag{font-size:.7rem;font-weight:800;color:#b0392b;display:block;margin-bottom:.15rem}
+.trouble-before b{font-size:.88rem;color:#4a221f;display:block;line-height:1.4}
+.trouble-after{display:flex;flex-direction:column;justify-content:center}
+.trouble-after-title{font-size:.95rem;font-weight:800;color:var(--green);margin-bottom:.25rem;display:flex;align-items:center;gap:.4rem}
+.trouble-after-title::before{content:"→";color:var(--gold);font-weight:900}
+.trouble-after-desc{font-size:.82rem;color:#495645;line-height:1.55;margin:0}
+
+/* 中間CTAボックス */
+.inline-cta-box{background:linear-gradient(135deg,#244b25,#173619);color:#fff;border-radius:12px;padding:2.2rem 2rem;text-align:center;max-width:960px;margin:3rem auto 0;box-shadow:0 12px 30px rgba(23,54,25,.18)}
+.inline-cta-box h3{color:#f5d787;font-size:clamp(1.25rem,2.2vw,1.65rem);margin:0 0 .5rem;font-family:var(--serif)}
+.inline-cta-box p{margin:0 0 1.4rem;font-size:.9rem;opacity:.92}
+.inline-cta-box .button.gold{font-size:1.05rem;padding:1rem 2.4rem;border-radius:6px}
+.inline-cta-box small{display:block;margin-top:.8rem;font-size:.75rem;opacity:.85}
+
+/* CTAマイクロコピー */
+.cta-subnote{display:block;margin-top:.45rem;font-size:.75rem;color:#5a6855;font-weight:600}
+
+/* レスポンシブ追加 */
+@media(max-width:850px){
+  .easy-cards-grid{grid-template-columns:1fr 1fr;gap:1rem}
+  .trouble-grid{grid-template-columns:1fr;gap:.9rem}
+  .trouble-card{grid-template-columns:1fr;gap:.7rem}
+  .trouble-before{min-width:auto}
+  .inline-cta-box{padding:1.8rem 1.2rem}
+  .inline-cta-box .button.gold{width:100%;padding:1rem}
+}
+@media(max-width:520px){
+  .easy-cards-grid{grid-template-columns:1fr}
+}
+
+
+

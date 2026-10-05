@@ -1,0 +1,2 @@
+document.querySelectorAll('[data-plan]').forEach(button=>button.addEventListener('click',()=>{document.querySelector('#plan').value=button.dataset.plan;document.querySelector('#form').scrollIntoView({behavior:'smooth'});}));
+document.querySelectorAll('[data-purpose]').forEach(button=>button.addEventListener('click',()=>{document.querySelector('#purpose').value=button.dataset.purpose;document.querySelector('#form').scrollIntoView({behavior:'smooth'});}));
